@@ -21,7 +21,9 @@ The input file should contain dependencies only:
 
 * Usage:
 
-`jbang run Parser.java [inputFile] [outputFile] [filter]`
+`jbang run Parser.java [inputFile] [outputFile] [filter] (--includeMvnPlugins)`
+
+The option `--includeMvnPlugins` is not mandatory and its for maven plugins dependencies inclusion. Those are excluded by default.
 
 * Ex.:
 

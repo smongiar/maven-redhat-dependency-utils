@@ -25,7 +25,7 @@ public class Parser {
 
     private static Path pomFile;
     private static String filterVersionMatcher;
-    private static String filterPluginMatcher = "maven-plugin";
+    private static String filterPluginMatcher = "plugin";
     private static boolean areMvnPluginsExcluded;
 
     public Parser(final String dependencyTreeFilePath, final String filterVersionMatcherCriteria) {
